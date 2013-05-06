@@ -6,7 +6,7 @@ require './version'
 Gem::Specification.new do |gem|
   gem.name          = "safe-erb"
   gem.version       = SafeERB::VERSION
-  gem.authors       = ["Aaron Bedra", "Shinya Kasatani"
+  gem.authors       = ["Aaron Bedra", "Shinya Kasatani"]
   gem.email         = ["kasatani@gmail.com"]
   gem.description   = %q{Safe ERB lets you make sure that the string written by `<%= %>` in
 your erb template is escaped correctly. If you try to show the
